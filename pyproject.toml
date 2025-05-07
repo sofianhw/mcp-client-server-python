@@ -1,0 +1,10 @@
+[project]
+name = "basic"
+version = "0.1.0"
+description = "Simple implementation client server mcp with python"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.7.1",
+    "openai>=1.77.0",
+]
